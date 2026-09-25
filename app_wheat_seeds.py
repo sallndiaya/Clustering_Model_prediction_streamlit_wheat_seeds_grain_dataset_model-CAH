@@ -4,7 +4,7 @@ import joblib
 
 # Configuration de la page
 st.set_page_config(
-    page_title="Segmentation des grains Model CAH ",
+    page_title=" Prediction des graines de blé Model CAH ",
     page_icon="🌿",
     layout="centered"
 )
