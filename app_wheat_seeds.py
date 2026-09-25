@@ -4,8 +4,8 @@ import joblib
 
 # Configuration de la page
 st.set_page_config(
-    page_title="Segmentation des grains",
-    page_icon="📊",
+    page_title="Segmentation des grains Model CAH ",
+    page_icon="🌿",
     layout="centered"
 )
 
@@ -34,7 +34,7 @@ def predire_classe(nouveau_grain):
 
 
 # Titre
-st.title("📊 Segmentation des grains")
+st.title("🌿 Segmentation des grains")
 st.write("Application de classification basée sur un modèle CAH.")
 
 
