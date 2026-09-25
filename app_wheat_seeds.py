@@ -21,10 +21,10 @@ noms_classes = artefacts["noms_classes"]
 # Fonction de prédiction
 def predire_classe(nouveau_grain):
 
-    client = np.array(nouveau_grain, dtype=float)
+    grain = np.array(nouveau_grain, dtype=float)
 
     distances = np.linalg.norm(
-        centres_clusters - grain, # type: ignore
+        centres_clusters - grain, 
         axis=1
     )
 
