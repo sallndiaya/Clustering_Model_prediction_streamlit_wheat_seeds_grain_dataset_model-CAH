@@ -1,3 +1,4 @@
+
 import streamlit as st
 import numpy as np
 import joblib
@@ -60,4 +61,4 @@ if st.button("Prédire la classe"):
 
     nom = noms_classes[classe]
 
-    st.success(f"Ce client appartient à la classe : {nom}")
+    st.success(f"Cette graine appartient à la classe : {nom}")
